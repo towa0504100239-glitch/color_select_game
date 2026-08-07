@@ -67,3 +67,17 @@ height:100vh;
   justify-content: center;
   align-items: center;
 }
+.btnWrap{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yBtn{
+    background-color: #FBBC05;
+    color: #1F1F1F;
+}
+.dBtn {
+  background-color: #1E3A8A;
+  color: #FFFFFF;
+}

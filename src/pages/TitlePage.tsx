@@ -20,7 +20,7 @@ const navigate = useNavigate();
            <p>色の意味ではなく、</p>
            <p>文字の色をこたえよう！</p>
         </div>
-        <div className='btnWrap'>
+        <div className='btnWrap defBack'>
           <button
           className='yBtn'
           onClick={() => navigate("/game")}>
@@ -30,7 +30,7 @@ const navigate = useNavigate();
            className="dBtn"
            onClick={() => navigate("/rule")}
            >
-
+            遊び方
           </button>
         </div>
        </div>
