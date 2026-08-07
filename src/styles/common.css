@@ -1,0 +1,69 @@
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.red{
+    color: #FF4D4F;
+}
+.yellow{
+    color: #FFD93D;
+}
+.green{
+    color: #4CAF50;
+}
+.blue{
+    color: #4A90E2;
+}
+.white{
+    color: #FFFFFF;
+}
+.redBack{
+    background-color: #FF4D4F;
+}
+.yellowBack{
+    background-color: #FFD93D;
+}
+.greenBack{
+    background-color: #4CAF50;
+}
+.blueBack{
+    background-color: #4A90E2;
+}
+.whiteBack{
+    background-color: #FFFFFF;
+}
+.defBack{
+    background-color: #011c3e;
+}
+.fontWb{
+    font-weight: bold;
+}
+.fontSsub{
+font-size: 1.2rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.back{
+width: 100vw;
+height:100vh;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
