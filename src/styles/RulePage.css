@@ -1,0 +1,157 @@
+h1{
+     color: #011c3e;
+     margin: 10px 0 0 0;
+     font-size: 2rem;
+}
+.ruText{
+    color: #011c3e;
+    font-weight: bold;
+}
+.ruleContainer {
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #fff;
+}
+
+.ruleContainer h1 {
+  margin-bottom: 10px;
+}
+
+.ruleText {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+
+/* =====================
+   例
+===================== */
+
+.exampleBox {
+  width: 90%;
+  max-width: 500px;
+
+  border: 2px solid #d3d8df;
+  border-radius: 20px;
+
+  padding: 20px 25px;
+  margin-bottom: 20px;
+}
+
+.exampleBox h2 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.exampleBox p {
+  line-height: 1.8;
+  font-weight: bold;
+}
+
+.example {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 35px;
+  margin-top: 25px;
+}
+
+.exampleWord {
+  width: 120px;
+  height: 75px;
+
+  border: 2px solid #d3d8df;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.arrow {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.answer {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+/* =====================
+   注意
+===================== */
+
+.attentionBox {
+  width: 90%;
+  max-width: 500px;
+
+  padding: 20px 25px;
+
+  background-color: #fff3cd;
+  border-radius: 20px;
+
+  margin-bottom: 20px;
+}
+
+.attentionBox h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.attentionBox ul {
+  padding-left: 25px;
+}
+
+.attentionBox li {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+
+/* =====================
+   スタート
+===================== */
+
+.startBtn {
+  width: 65%;
+  max-width: 330px;
+  height: 60px;
+
+  border: none;
+  border-radius: 30px;
+
+  background-color: #1478f2;
+  color: white;
+
+  font-size: 1.6rem;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.startBtn:hover {
+  opacity: 0.9;
+}

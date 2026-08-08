@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap");
 body {
   font-family: "M PLUS Rounded 1c", sans-serif;
+}
+h1,p,button{
+    font-family: "M PLUS Rounded 1c", sans-serif; 
 }
 .red{
     color: #FF4D4F;
@@ -76,8 +80,20 @@ height:100vh;
 .yBtn{
     background-color: #FBBC05;
     color: #1F1F1F;
+    width: 85%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 .dBtn {
-  background-color: #1E3A8A;
-  color: #FFFFFF;
+    background-color: #1a3377;
+    color: #FFFFFF;
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
