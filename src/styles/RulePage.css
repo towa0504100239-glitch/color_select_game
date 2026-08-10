@@ -2,10 +2,13 @@ h1{
      color: #011c3e;
      margin: 10px 0 0 0;
      font-size: 2rem;
+     text-align: center;
 }
 .ruText{
     color: #011c3e;
     font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .ruleContainer {
   width: 100%;
@@ -37,12 +40,10 @@ h1{
 .exampleBox {
   width: 90%;
   max-width: 500px;
-
   border: 2px solid #d3d8df;
   border-radius: 20px;
-
   padding: 20px 25px;
-  margin-bottom: 20px;
+  margin: 0 auto 20px auto;
 }
 
 .exampleBox h2 {
@@ -63,11 +64,16 @@ h1{
   gap: 35px;
   margin-top: 25px;
 }
-
+@media (max-width:425px) {
+  .example{
+    gap: 5px;
+  }
+}
 .exampleWord {
   width: 120px;
   height: 75px;
-
+  min-width: 120px;
+  min-height: 75px;
   border: 2px solid #d3d8df;
   border-radius: 5px;
 
@@ -87,7 +93,8 @@ h1{
 .answer {
   width: 80px;
   height: 80px;
-
+  min-width: 80px;
+  min-height: 80px;
   border-radius: 50%;
 
   display: flex;
@@ -107,13 +114,10 @@ h1{
 .attentionBox {
   width: 90%;
   max-width: 500px;
-
   padding: 20px 25px;
-
   background-color: #fff3cd;
   border-radius: 20px;
-
-  margin-bottom: 20px;
+    margin: 0 auto 20px auto;
 }
 
 .attentionBox h2 {
@@ -139,17 +143,15 @@ h1{
   width: 65%;
   max-width: 330px;
   height: 60px;
-
   border: none;
   border-radius: 30px;
-
   background-color: #1478f2;
   color: white;
-
   font-size: 1.6rem;
   font-weight: bold;
-
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
 }
 
 .startBtn:hover {

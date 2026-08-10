@@ -1,7 +1,8 @@
-import React from 'react'
+import { useNavigate } from "react-router-dom";
 import '../styles/common.css'
 import '../styles/RulePage.css'
 export const RulePage = () => {
+  const navigate = useNavigate();
   return (
     <div className="container">
       <h1>ルール</h1>
@@ -14,8 +15,7 @@ export const RulePage = () => {
         <p>
           「赤」という文字が
           <span className="blue">青色</span>
-          で表示されていたら<br />
-          正解は「<span className="blue">青</span>」です。
+          で表示されていたら正解は「<span className="blue">青</span>」です。
         </p>
 
         <div className="example">
@@ -38,8 +38,9 @@ export const RulePage = () => {
         </ul>
       </div>
 
-      {/* スタート */}
-      <button className="startBtn">
+      <button 
+      className="startBtn"
+      onClick={() => navigate("/game")}>
         スタート
       </button>
     </div>
