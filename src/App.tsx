@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import TitlePage from "./pages/TitlePage";
 import RulePage from "./pages/RulePage";
@@ -7,14 +7,14 @@ import ResultPage from "./pages/ResultPage";
 
 function App() {
   return (
-    <BrowserRouter basename="/color_select_game">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<TitlePage />} />
         <Route path="/rule" element={<RulePage />} />
         <Route path="/game" element={<GamePage />} />
         <Route path="/result" element={<ResultPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
