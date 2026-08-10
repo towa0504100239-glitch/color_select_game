@@ -7,7 +7,7 @@ import ResultPage from "./pages/ResultPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/color_select_game">
       <Routes>
         <Route path="/" element={<TitlePage />} />
         <Route path="/rule" element={<RulePage />} />
