@@ -26,10 +26,10 @@
   font-weight: bold;
 }
 .headerLabel.v1{
-  text-align: left;
+  margin-right: auto;
 }
 .headerLabel.v2{
-  text-align: right;
+  margin-left: auto;
 }
 .timeBar {
   width: 90px;
@@ -37,6 +37,7 @@
   background-color: #62758a;
   border-radius: 20px;
   overflow: hidden;
+  margin-right: auto;
 }
 .timeBarFill {
   width: 65%;
@@ -63,7 +64,7 @@
   font-size: 2rem;
   font-weight: bold;
   line-height: 1;
-  text-align: right;
+  margin-left: auto;
 }
 .questionBox {
   width: 100%;

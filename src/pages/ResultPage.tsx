@@ -1,15 +1,16 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate,useLocation } from "react-router-dom";
 import "../styles/ResultPage.css";
 import lefticon from "../assets/leftIcon.png";
 import righticon from "../assets/rightIcon.png";
 
 const ResultPage = () => {
   const navigate = useNavigate();
-  const score = 23;
-  const correct = 23;
-  const wrong = 7;
-  const accuracy = 76;
-  const maxCombo = 8;
+  const location = useLocation();
+  const correct = location.state?.answer ?? 0;
+  const score = location.state?.score ?? 0;
+  const wrong = location.state?.incorrect ?? 0;
+  const accuracy =  location.state?.rate ?? 0;
+  const maxCombo = location.state?.maxCombo ?? 0;
 
   return (
     <div className="resultPage">
