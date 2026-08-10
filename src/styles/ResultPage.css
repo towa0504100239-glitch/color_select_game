@@ -1,0 +1,119 @@
+.resultPage {
+  width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 30px 25px;
+  background-image: url("../assets/startBack.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.resultTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  background: #011c3e;
+}
+.resultTitle h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1;
+  color: #FFFFFF;
+}
+.resultIcon {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+.resultCard {
+  width: 85%;
+  max-width: 450px;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  border: 2px solid #62758a;
+  border-radius: 20px;
+  background-color: #011c3e;
+}
+.scoreLabel {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+}
+.resultScore {
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+  color: #ffd21f;
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 1;
+}
+.resultLine {
+  width: 100%;
+  height: 2px;
+  margin: 15px 0;
+  background-color: #62758a;
+}
+.resultDetails {
+  width: 85%;
+  margin: 0 auto;
+}
+.resultRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.resultRow:last-child {
+  margin-bottom: 0;
+}
+.resultButtons {
+  width: 85%;
+  max-width: 470px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.retryBtn,
+.backTitleBtn {
+  width: 100%;
+  height: 65px;
+  box-sizing: border-box;
+  border-radius: 35px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.retryBtn {
+  border: none;
+  background-color: #ffd21f;
+  color: #1f1f1f;
+}
+.backTitleBtn {
+  border: 2px solid #62758a;
+  background-color: #19375d;
+  color: white;
+}
+.retryBtn:active,
+.backTitleBtn:active {
+  transform: scale(0.97);
+}
