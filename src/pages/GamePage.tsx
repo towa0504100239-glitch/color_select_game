@@ -30,7 +30,7 @@ function GamePage() {
   const [time, setTime] = useState(30);
   const [answer, setAnswer] = useState(0);
   const [incorrect, setIncorrect] = useState(0);
-  const [combo, setCombo] = useState(0);
+  const [, setCombo] = useState(0);
   const [maxCombo, setMaxCombo] = useState(0);
   const [sameColorCount, setSameColorCount] =
     useState(1);
