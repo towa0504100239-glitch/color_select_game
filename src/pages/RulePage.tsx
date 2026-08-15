@@ -40,7 +40,7 @@ export const RulePage = () => {
 
       <button 
       className="startBtn"
-      onClick={() => navigate("/game")}>
+      onClick={() => navigate("/")}>
         スタート
       </button>
     </div>
