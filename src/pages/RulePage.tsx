@@ -41,7 +41,7 @@ export const RulePage = () => {
       <button 
       className="startBtn"
       onClick={() => navigate("/")}>
-        スタート
+        タイトルに戻る
       </button>
     </div>
   )
